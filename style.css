@@ -1,0 +1,399 @@
+/************************ Global ************************/
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.margin-b15{
+    margin-bottom: 15px;
+}
+.margin-b25{
+    margin-bottom: 25px;
+}
+.margin-b50{
+    margin-bottom: 50px;
+}
+.img-resp{
+    width: 100%;
+    height: auto;
+}
+.pad-none{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/************************ Navbar ************************/
+.pad-top8{
+    padding-top: 8px;
+}
+.pad-top10{
+    padding-top: 10px;
+}
+.pad-top15{
+    padding-top: 15px;
+}
+.nav-desktop{
+    text-align: center;
+    height: 100px;
+}
+.nav-desktop img{
+    max-width: 171px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+}
+.nav-itens{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nav-itens a{
+    font-size: 3rem;
+    vertical-align: middle;
+}
+.nav-itens-sm{
+    margin-bottom: 0px;
+}
+.nav-itens-sm a{
+    font-size: 2.3rem;
+    vertical-align: middle;
+}
+.nav-red{
+    color: #e30f14;
+}
+.nav-yellow{
+    color: #fdcd00;
+}
+.nav-red:hover{
+    color: #e30f14;
+}
+.nav-yellow:hover{
+    color: #fdcd00;
+}
+#btn-nav-xs{
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    border: solid 1px #5e5e5e;
+    color: #5e5e5e;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.navbar-xs img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: auto;
+}
+#nav-hidden-xs{
+    padding-top:15px; 
+}
+.nav-itens-xs a{
+    font-size: 2rem;
+}
+.social-heade-sm{
+    margin-bottom: 0px;
+}
+.social-header{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+.map,
+.insta,
+.face{
+    font-size: 3rem;
+    vertical-align: middle;
+}
+.insta{
+    color: #dd2a7b;
+}
+.face{
+    color: #3b5998;
+}
+.map{
+    color: #4fce5d;
+}
+.insta:hover, .face:hover, .map:hover{
+    color: #ffd400;
+}
+/************************ Banner ************************/
+
+/************************ Institucional ************************/
+.title-instit{
+    text-align: center;
+    color: #ffb900;
+    font-weight: bold;
+}
+.content-instit{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.content-instit img{
+    max-width: 55%; 
+}
+.text-instit{
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text-instit h2{
+    text-align: center;
+    font-weight: bolder;
+    color: #ff3840;    
+}
+.text-instit p{
+    font-weight: bolder;
+}
+/************************ Carousel ************************/
+
+.content-carousel {
+    padding: 25px 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.menu-carousel {
+    margin-bottom: 40px;
+}
+
+.menu-carousel a {
+    display: inline;
+}
+
+.menu-itens {
+    padding: 10px 20px;
+    border: solid 1px #5e5e5e;
+    color: #5e5e5e;
+    vertical-align: middle;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu-all:hover{
+    color: white;
+    border: solid 1px transparent;
+    background-color: #ff3840;
+    text-decoration: none;
+}
+.menu-nov:hover{
+    color: white;
+    border: solid 1px transparent;
+    background-color: #ffd400;
+    text-decoration: none;
+}
+.menu-blog:hover{
+    color: white;
+    border: solid 1px transparent;
+    background-color: #ffb900;
+    text-decoration: none;
+}
+.btn-menu-all{
+    padding: 10px 20px;
+    border: solid 2px #ff3840;
+    color: #ff3840;
+    text-transform: uppercase;
+    font-weight: bold;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.btn-menu-all:hover{
+    border: solid 2px white;
+    color: white;
+    background-color: #ff3840;
+    text-decoration: none;
+}
+/************************ Produtos ************************/
+
+.btn-produtos {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.btn-produtos a {
+    padding: 10px 40px;
+    background-color: #ff3840;
+    color: #fcc72e;
+    border: solid #fcc72e 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-produtos a:hover{
+    text-decoration: none;
+    border: solid #ff3840 3px;
+    color: #ff3840;
+    background-color: #fcc72e;
+}
+/************************ Form ************************/
+.text-form{
+    text-align: center;
+}
+.text-form h2{
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+.text-form h3{
+    padding-bottom: 25px;
+    font-size: 2rem;
+}
+.style-form input{
+    border-radius: 0px;
+    padding: 20px 25px;
+}
+.style-form button{
+    border-radius: 0px;
+    padding: 10px 15px;
+}
+/************************ Instagram ************************/
+
+.title-instagram {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.btn-instagram {
+    padding: 5px 15px;
+    background-color: #34a6ff;
+    ;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.btn-instagram:hover {
+    color: white;
+    background-color: #046cbd;
+    ;
+    text-decoration: none;
+}
+.line-instagram{
+    background-image: url(image/dot1.png);
+    background-repeat: repeat-x;
+    height: 26px;
+}
+.link-instagram{
+    padding-left: 5px; 
+    padding-right: 5px
+}
+.link-instagram h3{
+    margin-top: 0px;
+}
+/************************ Maps ************************/
+.title-map{
+    text-align: center;
+}
+.title-map h1{
+    color: #ff3840;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.title-map h3{
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+.bg-map {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.content-map{
+    margin-bottom: 50px;
+}
+/************************ Footer ************************/
+
+.bg-footer {
+    height: 350px;
+    padding: 35px 25px;
+}
+.bg-footer-r {
+    background-color: #ff3840;
+    background-image: url(image/biscoito.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.bg-footer-y {
+    background-color: #ffd400;
+    background-image: url(image/biscoito.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.bg-footer-y h3{
+    text-align: center;
+}
+.bg-footer-o {
+    background-color: #ffb900;
+    background-image: url(image/biscoito.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.bg-footer-o ul{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.bg-footer-o a{
+    font-size: 2rem;
+    color: #ff3840;
+    font-weight: bold;
+}
+.bg-footer-o a:hover{
+    text-decoration: none;
+    color: white;
+}
+.vertical-footer{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text-footer{
+    color: white;
+    font-size: 1.7rem;
+}
+.text-footer img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.text-footer p{
+    margin-bottom: 15px;
+}
+.social-footer a{
+    color: white;
+    font-size: 2.5rem;
+}
+.social-footer a:hover{
+    color: #ffd400;
+}
+.btn-footer{
+    background-color: #ff943c;
+    color: white; 
+}
+.btn-footer:hover{
+    background-color: #d4650b;
+    color: white; 
+}
+
+/************************ Responsive ************************/
+@media only screen and (max-width: 765px) {
+    .text-form h2{ font-size: 2rem;}
+    .text-form h3{ font-size: 1.7rem;}
+    .link-instagram{ text-align: center;}
+    .title-instit h1{ font-size: 2.5rem;}
+    .content-instit img{ max-width: 100%;}
+    .text-instit{ position: relative; top: inherit; transform: translateY(0);}
+    .content-xs{ margin-top: 60px;}
+    .bg-footer{ height: 300px; padding: 15px 15px;}
+}
+@media only screen and (max-width: 990px) {
+    .nav-itens a{ font-size: 2.3rem; }
+}
