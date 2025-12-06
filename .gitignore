@@ -1,0 +1,26 @@
+ macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+*.swp
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+.vscode/*
+site-quem-blog-noticia.jpg
+site-quem-blog.jpg
+site-quem-somos.jpg
